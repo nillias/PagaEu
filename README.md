@@ -8,7 +8,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/nillias/PagaEu?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/nillias/PagaEu?style=for-the-badge)
 
-<img src="exemplo-image.png" alt="exemplo imagem">
+
 
 > PagaEu é um aplicativo onde você consegue fazer o controle de quem está lhe devendo.
 
