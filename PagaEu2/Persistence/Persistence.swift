@@ -13,10 +13,13 @@ struct PersistenceController {
     static var preview: PersistenceController = {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
-        for _ in 0..<10 {
+        var itemsCounter = 0
+
+        repeat {
             let newItem = Contact(context: viewContext)
-            //newContact.timestamp = Date()
-        }
+            itemsCounter += 1
+        } while itemsCounter != 10
+
         do {
             try viewContext.save()
         } catch {
