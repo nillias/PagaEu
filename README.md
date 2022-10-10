@@ -5,8 +5,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/nillias/PagaEu?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/nillias/PagaEu?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/nillias/PagaEu?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/nillias/PagaEu?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/nillias/PagaEu?style=for-the-badge)
+
 
 
 
