@@ -400,8 +400,15 @@ struct ContactPageView: View {
                 }) {
                     
                     VStack (alignment: .trailing){
-                        Button("Save") {
-                            save.toggle()
+                        Button {
+                            print("This feat is not working right now, but wait for some updates")} label: {
+                                Text("Save")
+                                    .font(.largeTitle)
+                            }
+                        
+                        if save {
+                            Text("This feat is not working right now, but wait for some updates")
+                                .font(.largeTitle)
                         }
                     }
                     
