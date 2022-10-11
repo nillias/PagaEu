@@ -364,6 +364,7 @@ struct ContactPageView: View {
         @State var amount: String = ""
         @State var date: Date = Date()
         @State var title: String = ""
+        @State var save = false
         
         var contact: Contact
         
@@ -398,7 +399,11 @@ struct ContactPageView: View {
                     
                 }) {
                     
-                    Text("Save")
+                    VStack (alignment: .trailing){
+                        Button("Save") {
+                            save.toggle()
+                        }
+                    }
                     
                 }.padding(.leading, 300.0)
                 
