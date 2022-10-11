@@ -11,6 +11,7 @@
 
 > PagaEu é um aplicativo onde você consegue fazer o controle de quem está lhe devendo.
 
+
 ## 📫 Contribuindo para <PagaEu>
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
 Para contribuir com <PagaEu>, siga estas etapas:
