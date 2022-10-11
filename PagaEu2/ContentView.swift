@@ -20,7 +20,7 @@ struct ContentView: View {
     
     @Environment(\.managedObjectContext) private var viewContext
     
-    @State var showNewContactView : Bool = false
+    @State var createNewContacts : Bool = false
     @State var searchText: String = ""
     @State var isFocused : Bool = false
     
@@ -137,14 +137,14 @@ struct ContentView: View {
             
             
             .navigationTitle("Devedores")
-            .sheet (isPresented: $showNewContactView) {
+            .sheet (isPresented: $createNewContacts) {
                 NewContactView()
             }
             .navigationBarItems(trailing:
                                     
                                     Button (action: {
                 
-                showNewContactView.toggle()
+                createNewContacts.toggle()
                 
             }) {
                 
