@@ -213,7 +213,7 @@ struct NewContactView: View {
             
             Text("Adicionar Novo Contato")
                 .font(.headline)
-                .padding(.trailing, 180.0)
+//                .padding(.trailing, 180.0)
             TextField("Enter Name", text: $name)
                 .padding(20)
                 .background(Color(.systemGray6))
@@ -227,7 +227,6 @@ struct NewContactView: View {
         
         
     }
-    
     
 }
 
