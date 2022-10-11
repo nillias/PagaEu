@@ -52,6 +52,7 @@ struct ContentView: View {
                                 Image(systemName: "magnifyingglass")
                                     .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                                     .padding(.leading, 8)
+                                    .foregroundColor(.gray)
                                 
                                 if self.isFocused {
                                     Button(action: {
