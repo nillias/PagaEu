@@ -150,6 +150,7 @@ struct ContentView: View {
             }) {
                 
                 Image(systemName: "plus")
+                    .foregroundColor(.black)
             }
                                 
             )
