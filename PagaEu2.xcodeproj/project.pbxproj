@@ -16,6 +16,10 @@
 		A10F835328328E69001FC143 /* PagaEu2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10F835228328E69001FC143 /* PagaEu2Tests.swift */; };
 		A10F835D28328E69001FC143 /* PagaEu2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10F835C28328E69001FC143 /* PagaEu2UITests.swift */; };
 		A10F835F28328E69001FC143 /* PagaEu2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10F835E28328E69001FC143 /* PagaEu2UITestsLaunchTests.swift */; };
+		B95A78F5290CEC0B00C80E39 /* NewContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95A78F4290CEC0B00C80E39 /* NewContactView.swift */; };
+		B95A78F7290CECB800C80E39 /* PersonTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95A78F6290CECB800C80E39 /* PersonTileView.swift */; };
+		B95A78FA290CEE6F00C80E39 /* ContactPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95A78F9290CEE6F00C80E39 /* ContactPageView.swift */; };
+		B95A78FD290CEF1A00C80E39 /* NewTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95A78FC290CEF1A00C80E39 /* NewTransactionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		A10F835828328E69001FC143 /* PagaEu2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagaEu2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10F835C28328E69001FC143 /* PagaEu2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagaEu2UITests.swift; sourceTree = "<group>"; };
 		A10F835E28328E69001FC143 /* PagaEu2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagaEu2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B95A78F4290CEC0B00C80E39 /* NewContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactView.swift; sourceTree = "<group>"; };
+		B95A78F6290CECB800C80E39 /* PersonTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTileView.swift; sourceTree = "<group>"; };
+		B95A78F9290CEE6F00C80E39 /* ContactPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPageView.swift; sourceTree = "<group>"; };
+		B95A78FC290CEF1A00C80E39 /* NewTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTransactionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +106,8 @@
 		A10F833B28328E68001FC143 /* PagaEu2 */ = {
 			isa = PBXGroup;
 			children = (
-				A10F833C28328E68001FC143 /* PagaEu2App.swift */,
-				A10F833E28328E68001FC143 /* ContentView.swift */,
+				B95A78F8290CEE1B00C80E39 /* App */,
+				B95A78F3290CEBA200C80E39 /* Views */,
 				A1143B852833CC350058B78B /* Persistence */,
 				A10F834028328E69001FC143 /* Assets.xcassets */,
 				A10F834228328E69001FC143 /* PreviewContent */,
@@ -139,6 +147,26 @@
 				A10F834728328E69001FC143 /* PagaEu2.xcdatamodeld */,
 			);
 			path = Persistence;
+			sourceTree = "<group>";
+		};
+		B95A78F3290CEBA200C80E39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B95A78F4290CEC0B00C80E39 /* NewContactView.swift */,
+				B95A78F6290CECB800C80E39 /* PersonTileView.swift */,
+				A10F833E28328E68001FC143 /* ContentView.swift */,
+				B95A78F9290CEE6F00C80E39 /* ContactPageView.swift */,
+				B95A78FC290CEF1A00C80E39 /* NewTransactionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B95A78F8290CEE1B00C80E39 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A10F833C28328E68001FC143 /* PagaEu2App.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,9 +299,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95A78F7290CECB800C80E39 /* PersonTileView.swift in Sources */,
 				A10F834628328E69001FC143 /* Persistence.swift in Sources */,
+				B95A78FA290CEE6F00C80E39 /* ContactPageView.swift in Sources */,
 				A10F834928328E69001FC143 /* PagaEu2.xcdatamodeld in Sources */,
+				B95A78F5290CEC0B00C80E39 /* NewContactView.swift in Sources */,
 				A10F833F28328E68001FC143 /* ContentView.swift in Sources */,
+				B95A78FD290CEF1A00C80E39 /* NewTransactionView.swift in Sources */,
 				A10F833D28328E68001FC143 /* PagaEu2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
